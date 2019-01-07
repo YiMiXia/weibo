@@ -10499,6 +10499,14 @@ nav.navbar.navbar-expand-lg {
   margin-bottom: 20px;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 /* footer */
 
 footer {
@@ -10527,6 +10535,24 @@ footer img.brand-icon {
   height: 17px;
 }
 
+/* sidebar */
+
+aside section {
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+aside section:first-child {
+  border: 0;
+  padding-top: 0;
+}
+
+aside section span {
+  display: block;
+  margin-bottom: 3px;
+  line-height: 1;
+}
+
 /* User gravatar */
 
 section.user_info {
@@ -10551,5 +10577,23 @@ section.user_info h1 {
   float: left;
   max-width: 50px;
   border-radius: 50%;
+}
+
+/* forms */
+
+input,
+textarea,
+select,
+.uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
 }
 
